@@ -1,0 +1,348 @@
+body{
+position: relative;
+background: linear-gradient(90deg, #232526 0%, #414345 100%);
+}
+.titulo{
+    top: 15px;
+    left: 300px;
+    position: absolute;
+width: 600px;
+height: 70px;
+font-family: 'Fira Mono', monospace;
+font-style: normal;
+font-weight: 100;
+font-size: 35px;
+text-align: center;
+color: #FFFFFF;
+}
+.logo{
+position: absolute;
+width: 60px;
+height: 58.46px;
+left: 30px;
+top: 15px;
+}
+.cuadrotexto{
+    box-sizing: border-box;
+position: absolute;
+width: 820px;
+height: 480px;
+left: 173px;
+top: 106px;
+
+border-radius: 30px;
+text-align: center;
+font-family: 'Fira Mono', monospace;
+font-style: normal;
+font-size: 20px;
+line-height: 150%;
+
+position: relative;
+color: #DADADA;
+
+}
+
+#textoprincipal{
+    width: 820px;
+    height: 450px;
+    border-radius: 30px;
+    min-width: 820px;
+    min-height: 450px;
+    max-width: 820px;
+    max-height: 450px;
+    background-color:transparent;
+    border: 2px solid #DBDBDB;
+    color: #DBDBDB;    
+    padding-top: 25px;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+::placeholder{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 260px;
+  
+}
+#encriptar{
+position: absolute;
+width: 230px;
+height: 55px;
+left: 620px;
+top: 655px;
+
+background: #DBDBDB;
+border-radius: 20px;
+font-family: 'Fira Mono', monospace;
+font-size: 20px;
+color: #181818;   
+}
+#desencriptar{
+box-sizing: border-box;
+position: absolute;
+width: 230px;
+height: 55px;
+left: 350px;
+top: 655px;
+
+background: #252525;
+border: 1px solid #DBDBDB;
+border-radius: 20px;
+font-family: 'Fira Mono', monospace;
+font-size: 20px;
+color: #dbdbdb; 
+}
+#mensaje{
+    
+    position: absolute;
+width: 300px;
+height: 680px;
+left: 1080px;
+top: 15px;
+padding: 10px;
+background: #DBDBDB;
+box-shadow: 6px 4px 4px rgba(255, 255, 255, 0.25);
+border-radius: 30px;
+font-size: 25px;
+margin: 0 auto;
+    border: none;
+    resize: none;
+    outline: none;
+    
+}
+#ima{
+position: relative;
+width: 326px;
+height: 306px;
+left: -10px;
+top: -80px;
+
+}
+#mensajeE{
+ width: 256px;
+height: 58px;
+
+font-family: 'Sofia Sans Condensed', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+margin-top: -100px;
+margin-left: 25px;
+text-align: center;
+
+color: #343A40;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+#mensajeE2{
+    width: 216px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+text-align: center;
+margin-top: 20px;
+margin-left: 45px;
+color: #495057;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.info{
+margin-top: 130px;
+margin-left: 190px;
+width: 16px;
+height: 16px;
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+line-height: 150%;
+width: 239px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+
+color: #DBDBDB;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+#mostrartexto{
+    background-color: #dbdbdb;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 300px;
+    height: 200px;
+    font-family: arial;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Fira Mono', monospace;
+    padding-top: 10px
+}
+#copiar{
+    box-sizing: border-box;
+    position: absolute;
+    width: 230px;
+    height: 55px;
+    left: 50px;
+    background: #252525;
+    border: 1px solid #DBDBDB;
+    border-radius: 20px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 20px;
+    color: #dbdbdb; 
+    
+}
+.enlace{
+    text-decoration: none;
+}
+
+@media(max-width: 900px){
+    body{
+       width: auto;
+        background: linear-gradient(90deg, #232526 0%, #414345 auto);
+    }
+
+    .titulo{
+     top: 50px;
+    left: 85px;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    display: flex;
+     position: absolute;
+    width: auto;
+    font-weight: 100;  
+    }
+    .logo{
+        position: absolute;
+        width: 30px;
+        height: 34.46px;
+        left: 15px;
+        top: 15px;
+        
+        }
+        .cuadrotexto{
+       position: fixed;
+        box-sizing: border-box;
+        position: absolute;
+        width: 90%;
+        height: 380px;
+        left: 7%;
+        right: auto;
+        top: 106px;
+        position: relative;
+       
+        
+        }
+        #textoprincipal{
+            width: 95%;
+            height: 380px;
+            border-radius: 30px;
+            min-width: 80%;
+            min-height: 380px;
+            max-width: 95%;
+            max-height: 380px;
+            display: flex;
+        }
+        #encriptar{
+        position: relative;
+        width: 80%;
+        height: 50px;
+        left: 10%;
+        top: 20px;
+        display: flex;
+        }
+#desencriptar{
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        width: 80%;
+        height: 50px;
+        left: 10%;
+        top: 40px;
+        text-align: center;
+
+}
+
+#mensaje{
+position: relative;
+width: 80%;
+height: 380px;
+left: 1%;
+top: 65px;
+padding: 10px;
+    
+}
+
+#mostrartexto{
+    background-color: #dbdbdb;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 80%;
+    height: 200px;
+    font-family: arial;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Fira Mono', monospace;
+    padding-top: 10px
+}
+#ima{
+
+position: relative;
+width: 80%;
+height: 266px;
+left: 10%;
+top: -230px;
+display: flex;
+}
+#mensajeE{
+ width: 80%;
+height: 58px;
+line-height: 120%;
+margin-top: -240px;
+margin-left: 10%;
+flex: none;
+}
+#mensajeE2{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 60;
+}
+.info{
+    margin-top: 130px;
+    margin-left: 10%;
+}
+#copiar{
+    box-sizing: border-box;
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 85%;
+    
+}
+::placeholder{
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 10%;
+    text-align: center;
+}
+}

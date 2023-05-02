@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="reset.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="shortcut icon" href="logito.svg">
+    <title>Encriptador</title>
+</head>
+<body>
+   
+    <header> <img src="logo.svg" alt="" class="logo"></header>
+        <p class="titulo">ENCRIPTADOR DE PALABRAS</p>
+    <div class="cuadrotexto">
+        <textarea id="textoprincipal"placeholder="Ingresa un mensaje aqui |" onkeyup= "mostrar(this.value)" autofocus></textarea>
+    </div>
+    
+    <p class="info">
+        <img src="info.svg" alt="" width="16px" height="16px">
+        Solo letras minúsculas y sin acentos
+    </p>
+    
+       <a href="#copiar" class="enlace"> <input type="button"  value="Encriptar" id="encriptar"> </a>
+       <a href="#copiar" class="enlace"> <input type="button" value="Desencriptar" id="desencriptar"> </a>
+    <div id="mensaje">
+        <textarea name="" id="mostrartexto" readonly></textarea>
+        <img src="find.svg" alt="" id="ima">
+        <p id="mensajeE">
+            Ningun mensaje fue encontrado
+        </p>
+        <p id="mensajeE2">
+            Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+        <button id="copiar">Copiar</button>
+        
+    </div>
+   
+    <script src="prueba.js">
+
+    </script>
+    
+</body>
+</html>
